@@ -1,0 +1,33 @@
+# Веса моделей
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+models/
+
+# Результаты и временные файлы
+output/
+outputs/
+input/
+temp/
+*.mp4
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.webp
+!docs/img/**
+
+# Окружения
+venv/
+.venv/
+__pycache__/
+ComfyUI/
+ComfyUI_windows_portable/
+
+# Локальные настройки и ключи
+*.local.json
+.env
